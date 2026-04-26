@@ -1,0 +1,30 @@
+# =============================================================================
+# AutoSplat Studio — .gitignore
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment ---
+venv/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Projets temporaires (créés par l'app) ---
+temp_projects/
+
+# --- Build / Distribution PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Binaires lourds (distribués séparément) ---
+bin/ffmpeg.exe
+bin/colmap-x64-windows-cuda/
+bin/LichtFeld-Studio/

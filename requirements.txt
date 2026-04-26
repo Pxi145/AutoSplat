@@ -1,0 +1,28 @@
+# =============================================================================
+# AutoSplat Studio — Dépendances Python
+# =============================================================================
+# Installer via : venv\Scripts\pip.exe install -r requirements.txt
+# =============================================================================
+
+# --- Interface Graphique ---
+customtkinter>=5.2.0
+tkinterdnd2>=0.4.2
+
+# --- Vision par Ordinateur ---
+opencv-python>=4.9.0
+Pillow>=10.0.0
+
+# --- Export USDZ (PLY_to_USD) ---
+numpy>=2.0.0
+plyfile>=1.0.0
+usd-core>=25.0
+msgpack>=1.0.0
+
+# --- COLMAP Python Bindings ---
+pycolmap>=0.6.0
+
+# --- NVIDIA cuDNN (requis pour ALIKED via ONNX Runtime CUDA) ---
+nvidia-cudnn-cu12>=9.0.0
+
+# --- Build / Distribution ---
+pyinstaller>=6.0.0

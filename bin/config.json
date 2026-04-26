@@ -1,0 +1,17 @@
+{
+    "colmap_mode": "incremental",
+    "colmap_feature_type": "ALIKED_N32",
+    "colmap_matcher_type": "sequential",
+    "colmap_overlap": 50,
+    "colmap_camera_model": "SIMPLE_RADIAL",
+    "default_blur_threshold": 2,
+    "lichtfeld_iterations": 30000,
+    "lichtfeld_strategy": "igs+ (Avancé)",
+    "lichtfeld_resize": "1 (Original)",
+    "lichtfeld_tile_mode": 2,
+    "lichtfeld_mip": true,
+    "lichtfeld_max_splats": 3000000,
+    "lichtfeld_gut": false,
+    "export_format": "html",
+    "auto_cleanup": false
+}
