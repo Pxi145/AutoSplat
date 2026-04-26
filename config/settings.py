@@ -23,11 +23,13 @@ DEFAULT_CONFIG: dict = {
     "default_blur_threshold":  4,
     # --- Lichtfeld ---
     "lichtfeld_iterations":    20000,
-    "lichtfeld_strategy":      "adc (Standard)",
+    "lichtfeld_strategy":      "mrnf (Standard)",
     "lichtfeld_resize":        "auto",
+    "lichtfeld_tile_mode":     2,
     "lichtfeld_mip":           False,
     "lichtfeld_max_splats":    1000000,      # défaut Lichtfeld
     "lichtfeld_gut":           False,         # 3DGUT (images distordues)
+    "export_format":           "html",
     # --- Stockage ---
     "auto_cleanup":            False,
 }
