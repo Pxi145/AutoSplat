@@ -20,8 +20,7 @@
 
 <div align="center">
 
-<!-- 📸 INSERT SCREENSHOT OR GIF HERE -->
-![AutoSplat Studio Interface](./assets/preview.gif)
+![AutoSplat Studio Interface](./ressources/AutoSplat_workflow.gif)
 
 *The AutoSplat Studio interface — drag a video or image folder, monitor real-time extraction, and track each pipeline step from a single window.*
 
